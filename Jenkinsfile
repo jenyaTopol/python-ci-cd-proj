@@ -1,6 +1,6 @@
-#cretaed by Jenya topol
+//cretaed by Jenya topol
 
-##CI
+//CI
 pipeline{
 
 	agent any
@@ -39,7 +39,7 @@ pipeline{
 			}
 		}
 	}
-	##CD
+	//CD
 	post {
 		always {
 			sh 'docker logout'
